@@ -1,0 +1,148 @@
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+  background-color: #0d192c;
+  min-height: 100vh;
+  display: flex;
+}
+
+h1,
+p,
+span {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-left: 24px;
+  margin-right: 24px;
+
+  display: inline;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  color: #8bacd9;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 300;
+}
+
+.icons {
+  margin-left: 24px;
+}
+
+.days-left {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.days-left span {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.main-container {
+  width: 350px;
+  height: 596px;
+  background-color: hsl(216, 51%, 16%);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.border-line {
+  width: 302px;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.nft-img {
+  border-radius: 15px;
+  margin: 24px;
+  margin-bottom: 24px;
+  background: none;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 15px;
+  background: hsl(178, 100%, 50%, 0.6);
+  width: 302px;
+  height: 302px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.img-overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 24px;
+}
+
+.colored-span {
+  margin-left: 16px;
+  margin-right: 10px;
+  color: #8bacd9;
+}
+
+.user-avatar {
+  width: 33px;
+  height: 33px;
+}
+
+.user-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
